@@ -1,0 +1,10 @@
+Question,Option 1,Option 2,Option 3,Option 4, Answer
+What is the syntax for declaring a variable in Python?,var name = value,name = value,value = name,none of the above,name = value
+Which of the following is not a valid data type in Python?,int,float,str,Artic Ocean,double
+Which of the following is a valid way to import a module in Python?,import math module,import module math,from math import module,import math,import math
+"What is a correct syntax to output ""Hello World"" in Python?","print(""Hello World"")  ","p(""Hello World"")","echo(""Hello World"");","echo ""Hello World""","print(""Hello World"")  "
+Which one is NOT a legal variable name?,my_var,Myvar,my-var ,_myvar,my-var 
+What is the correct syntax to output the type of a variable or object in Python?,print(typeof x),print(typeof(x)),print(typeOf(x)),print(type(x))  ,print(type(x))  
+Which method can be used to remove any whitespace from both the beginning and the end of a string?,len(),ptrim(),strip() ,trim(),strip() 
+Which method can be used to return a string in upper case letters?,upper(),upperCase(),uppercase(),toUpperCase(),upper()
+Which method can be used to replace parts of a string?,replaceString(),switch(),replace(),repl(),replace()
