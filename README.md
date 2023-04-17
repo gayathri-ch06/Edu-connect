@@ -13,21 +13,22 @@ platform's discussion boards.
 
 This is based on socket programming where the client is connected to the server.\
 First we clone the repository
-bash
+```bash
 git clone https://github.com/gayathri-ch06/Edu-connect
-
-Here we first need to install the required modules from the requirements.txt
-bash
+```
+Here we first need to install the required modules from the _requirements.txt_
+```bash
 pip install -r requirements.txt
-
+```
 
 After all the dependencies are met we navigate to the path of the server file and execute it by 
 
-bash
+```bash
 cd /educonnect/server
 python ./server.py
-
+```
 Then we start the application 
-bash
+```bash
 cd /educonnect/
 python ./start.py
+```
