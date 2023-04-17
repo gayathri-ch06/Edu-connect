@@ -1,2 +1,22 @@
-# Multimedia-Transfer
-Multimedia transfer using client-server system
+# Edu Connect
+
+In this project, we provide a platform that gives students access to a
+range of classes and educational materials. The same platform allows
+instructors to set up and manage courses, track student development, and
+provide help and feedback. Students can interact with one another on the
+platform's discussion boards.
+
+## Procedure
+
+This is based on socket programming where the client is connected to the server. Here we first need to install the required modules from the _requirements.txt_\
+After all the dependencies are met we navigate to the path of the server file and execute it by 
+
+```bash
+cd /educonnect/server
+python ./server.py
+```
+Then we start the application 
+```bash
+cd /educonnect/
+python ./start.py
+```
