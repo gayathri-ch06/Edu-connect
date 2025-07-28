@@ -1,4 +1,5 @@
 import requests
+from security import safe_requests
 
 
 def login(email, password, userType):
@@ -70,7 +71,7 @@ def download_file(file_path, path):
 
     # Download the file from the URL
     url = f'http://localhost:8000/{path}'
-    response = requests.get(url)
+    response = safe_requests.get(url)
 
     # Write the downloaded file to disk
     with open(file_path, 'wb') as f:
